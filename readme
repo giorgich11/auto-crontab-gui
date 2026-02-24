@@ -1,0 +1,42 @@
+🚀 Cron-Editor Pro
+
+The ultimate "clicky" automation factory for Linux. Created by giorgich11 (the legend behind Auto-Bash-to-Bin).
+🛠 What is this?
+
+Cron-Editor Pro is a GUI-based manager for your Linux automation. Instead of wrestling with crontab -e and cryptic star-symbols, you get a clean dashboard to:
+
+    Write Code: A built-in editor to script directly in the app.
+
+    Schedule: Easy fields for setting your timing.
+
+    Manage: View, Edit, or Delete your scheduled tasks with one click.
+
+    Auto-Storage: All scripts are saved and kept executable in ~/.cron-factory/.
+
+📦 Setup & Installation
+1. Grab the dependency
+
+This tool uses YAD for the heavy-duty GUI lifting.
+Bash
+
+sudo apt update && sudo apt install yad -y
+
+2. Get the Script
+
+Clone the repo or download the gui.bin file
+3. Make it Executable (The "chmod" Step)
+
+Linux won't run a script unless you give it the "Go" signal. Open your terminal in the folder and run:
+Bash
+
+chmod +x gui.sh
+
+    What does this do? chmod changes permissions. +x means "eXecutable." Now it's a real program, not just a text file.
+
+🚀 How to Run
+
+You can fire it up from the terminal:
+Bash
+./gui.sh
+
+./cron-editor-pro.sh
