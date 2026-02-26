@@ -3,7 +3,7 @@
 The ultimate "clicky" automation factory for Linux. Created by giorgich11 (the legend behind Auto-Bash-to-Bin).
 🛠 What is this?
 
-Cron-Editor Pro is a GUI-based manager for your Linux automation. Instead of wrestling with crontab -e and cryptic star-symbols, you get a clean dashboard to:
+Cron-Editor Pro is a GUI-based manager for yourhttps://github.com/giorgich11/auto-crontab-gui Linux automation. Instead of wrestling with crontab -e and cryptic star-symbols, you get a clean dashboard to:
 
     Write Code: A built-in editor to script directly in the app.
 
@@ -39,4 +39,4 @@ You can fire it up from the terminal:
 Bash
 ./gui.sh
 
-./cron-editor-pro.sh
+
